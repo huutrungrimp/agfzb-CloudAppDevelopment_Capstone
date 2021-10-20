@@ -1,11 +1,11 @@
   applications:
-  - name: djangoapp
+  - name: trungapp
     routes:
-      - route: $HOST.$DOMAIN
+      - route: trungapp.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: trungapp-nginx
     routes:
-      - route: $HOST.$DOMAIN/static
+      - route: trungapp.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
