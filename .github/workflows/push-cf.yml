@@ -9,7 +9,7 @@ env:
   IBM_CLOUD_SPACE: trung-space
   IBM_CLOUD_ORG: huutrungrimp@gmail.com
   MANIFEST_NAME: manifest.yml
-  IBM_CLOUD_API: ${{gS_GPyjR9ydKI4VGWmWCWeiaff1_aLwS0785LXMHnf65}}
+  IBM_CLOUD_API: ${{secrets.IBM_CLOUD_API_KEY}}
 defaults:
   run:
     working-directory: server
